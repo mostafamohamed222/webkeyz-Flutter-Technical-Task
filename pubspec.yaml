@@ -1,0 +1,5 @@
+name: webkeyz_technical_task
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+dev_dependencies:
+  test: ^1.25.2
