@@ -1,5 +1,5 @@
-import 'package:test/test.dart';
-import 'package:webkeyz_technical_task/payment_planner.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:webkeyz_flutter_technical_task/payment_planner.dart';
 
 void main() {
   group('PaymentPlanner', () {

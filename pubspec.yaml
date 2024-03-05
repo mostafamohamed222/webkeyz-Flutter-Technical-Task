@@ -1,5 +1,24 @@
-name: webkeyz_technical_task
+name: webkeyz_flutter_technical_task
+description: "An engaging Flutter development challenge for candidates at webkeyz, focusing on implementing a Payment Planner algorithm using Dart. This task is designed to test your problem-solving skills and your proficiency with Dart and Flutter."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
 environment:
-  sdk: ">=3.0.2 <4.0.0"
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
 dev_dependencies:
-  test: ^1.25.2
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
