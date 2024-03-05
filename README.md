@@ -23,3 +23,18 @@ You are tasked with implementing the Payment Planner algorithm using Dart. This 
 - Your primary task is to implement the `payments` method in the `PaymentPlanner` class to pass the unit tests.
 
 Refer to the provided unit tests for detailed expected behavior and outcomes.
+
+
+
+## How to Submit
+
+To submit your completed task, please follow these steps:
+
+1. **Fork the Repository:** Fork the provided GitHub repository to your own GitHub account.
+2. **Implement the Solution:** Complete the task in your forked repository, adhering to the provided specifications.
+3. **Commit Your Changes:** Commit your changes using meaningful messages that follow git conventional commit standards. Ensure your commits clearly document the evolution of your solution.
+4. **Email Your Submission:** Once you are satisfied with your implementation, send an email to `code@webkeyz.com`. Use the subject line `"Flutter Task Submission - [Your First Name] [Your Last Name]"` and include the URL of your forked GitHub repository in the email body.
+
+Please replace `[Your First Name]` and `[Your Last Name]` with your actual first and last names. This helps us identify your submission quickly and efficiently.
+
+We look forward to reviewing your innovative solutions. **Good luck with your implementation!** ✨🚀
