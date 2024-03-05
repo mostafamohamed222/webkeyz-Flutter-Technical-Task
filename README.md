@@ -1,33 +1,25 @@
-# webkeyz_technical_task
+# webkeyz Flutter Task
+Welcome to our webkeyz technical task for Flutter developer candidates. This document outlines a coding challenge designed to assess your problem-solving skills and expertise in Dart and Flutter.
 
-## Task Description:
-Title: Implement Payment Planner Algorithm
+## Task Description
+You are tasked with implementing the Payment Planner algorithm using Dart. This algorithm is designed to calculate payments among participants in a group to settle balances.
 
-## Description:
-You are tasked with implementing the Payment Planner algorithm using Dart. The Payment Planner algorithm is responsible for calculating payments among participants to settle balances in a group.
+## Algorithm Rules
+- Each participant has a balance indicating the amount they owe or are owed.
+- The objective is to adjust the balances so that each participant has an equal balance.
+- Participants with positive balances owe money, while those with negative balances are owed money.
+- The algorithm determines how to transfer money between participants to settle these balances.
+- Payments are made from participants with positive balances to those with negative balances.
+- The aim is to minimize the number of transactions needed to efficiently settle all balances.
 
-The algorithm follows these rules:
+## Specifications
+- You will work with a Dart class `PaymentPlanner` that handles the logic for calculating payments.
+- The `PaymentPlanner` class includes an `initialize` method accepting an array of participant objects.
+- Each participant object has a `balance` (the amount owed or owed) and a `name`.
+- The `PaymentPlanner` class has a `payments` method that calculates the necessary payments to settle balances.
+- The goal is to minimize the number of payments to efficiently settle all balances.
+- The `payments` method returns an array of payment objects, each containing `from` (payer), `to` (payee), and `amount` (transferred sum).
+- Unit tests using RSpec are provided to ensure the implementation's correctness.
+- Your primary task is to implement the `payments` method in the `PaymentPlanner` class to pass the unit tests.
 
-Each participant has a balance, which represents the amount of money they owe or are owed.
-The goal is to settle all balances so that each participant ends up with an equal balance.
-Participants with positive balances owe money, while participants with negative balances are owed money.
-The algorithm calculates payments to transfer money between participants to settle their balances.
-Payments are made from participants with positive balances to participants with negative balances.
-Payments should be minimized to settle all balances efficiently.
-Your task involves implementing the Payment Planner algorithm according to the provided specifications and unit tests.
-
-## Specifications:
-
-You are provided with a Dart class PaymentPlanner that contains the logic for calculating payments among participants.
-The PaymentPlanner class has an initialize method that takes an array of participant objects as input.
-Each participant object has attributes balance (representing the balance owed or owed by the participant) and name (the name of the participant).
-The PaymentPlanner class has a payments method that calculates the payments needed to settle the balances among participants.
-The algorithm aims to minimize the number of payments required to settle all balances efficiently.
-The payments method returns an array of payment objects, where each payment object contains attributes from (the participant making the payment), to (the participant receiving the payment), and amount (the amount of money being transferred).
-Unit tests are provided using RSpec to validate the correctness of the implementation.
-You should focus on implementing the payments method of the PaymentPlanner class to pass the provided unit tests.
-Your task is to write the code for the payments method of the PaymentPlanner class to ensure that all unit tests pass successfully.
-
-Please refer to the provided unit tests for expected behavior and outcomes.
-
-Best of luck with your implementation!
+Refer to the provided unit tests for detailed expected behavior and outcomes.
