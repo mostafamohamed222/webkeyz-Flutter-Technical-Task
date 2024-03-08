@@ -1,7 +1,7 @@
 class Payment {
   final String fromName;
   final String toName;
-  final int amount;
+  final num amount;
 
   Payment(this.fromName, this.toName, this.amount);
 }
